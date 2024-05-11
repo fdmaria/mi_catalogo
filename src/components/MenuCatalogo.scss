@@ -1,0 +1,14 @@
+.lista-catalogo {
+    border: 1px solid;
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    padding: 3px;
+    &__item{
+       padding: 8px; 
+      &:hover{
+        color: $color-primary;
+        font-weight: 800;
+      }
+    }
+}

@@ -1,0 +1,40 @@
+.banner-portada{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(248, 66, 66);
+    position: relative;
+    flex-direction: column;
+
+    &__btn-controls {
+        
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5em;
+        &__arrow {
+            border: 2px solid;
+        }
+        &__copy {
+            background: yellow;
+            width: 100%;
+            padding: 1em;
+        }
+    }
+    &__img-banner{
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5em;
+    }
+}
+
+
+
+.img-banner {
+    width: 100%;
+}
+

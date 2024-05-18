@@ -3,7 +3,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 1px solid rgb(248, 66, 66);
     position: relative;
     flex-direction: column;
 
@@ -16,12 +15,30 @@
         align-items: center;
         padding: 0.5em;
         &__arrow {
-            border: 2px solid;
+            // height: 30px;
+            // width: 30px;
+            //border: 2px solid;
+            //background-color: rgb(52, 49, 49);
+            opacity: 0.8;
+            color: whitesmoke;
+            border-radius: 50%;
+            font-size: 2em;
+            &:hover{
+                cursor: pointer;
+                color: black;
+                background-color: whitesmoke;
+                opacity: 0.3;
+            }
+
         }
         &__copy {
-            background: yellow;
             width: 100%;
             padding: 1em;
+            margin: 1em;
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: whitesmoke;
+            //opacity: 0.8;
         }
     }
     &__img-banner{

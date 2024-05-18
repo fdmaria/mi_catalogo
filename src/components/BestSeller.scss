@@ -1,0 +1,27 @@
+.section-best {
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    &__title {
+        
+    }
+    &__products {
+        border: 1px solid red;
+        display: flex;    
+        
+        &__prod {            
+        height: 300px;
+        width: 200px;
+        padding: 0.2em;
+        text-align: center;
+        border: 1px green solid;
+        
+        &__img {
+            border-radius: 50%;
+        }
+        &__p {
+        }
+        }
+        
+    }
+}

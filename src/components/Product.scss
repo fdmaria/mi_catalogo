@@ -1,0 +1,12 @@
+.product-title {            
+    height: 300px;
+    width: 200px;
+    padding: 0.2em;
+    text-align: center;
+    
+    &__img {
+        border-radius: 50%;
+    }
+    &__p {
+    }
+}
